@@ -71,11 +71,11 @@ input[type=number] {
   border-radius: 100%;
 }
 
-.number-option {
+.number-option, .number-option-point {
   background: #bd93f9;
 }
 
-.number-option:hover {
+.number-option:hover, .number-option-point:hover {
   background: #9872cc;
 }
 
