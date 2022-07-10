@@ -4,6 +4,8 @@ Uma calculadora basica em html, css e javascript.
 
 [paleta de cores Dracula](https://draculatheme.com/contribute)
 
+[Link da do preview](https://calculadora-luan441.netlify.app/)
+
 ---
 ## Histórias de usuários
 
