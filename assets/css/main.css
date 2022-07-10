@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #282a36;
+  justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+
+.calculator {
+  width: 400px;
+  padding: 30px;
+  border-radius: 30px;
+  background: #44475a;
+}
+
+.display > input {
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  overflow: none;
+  font-size: 1.7rem;
+  text-align: end;
+  border-radius: 20px;
+  background: #282a36;
+}
+
+.display > input:focus {
+  outline: none;
+}
+
+.buttons {
+  gap: 20px;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.buttons > button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 100%;
+}
+
+.number-option, .number-option-point {
+  background: #bd93f9;
+}
+
+.number-option:hover, .number-option-point:hover {
+  background: #9872cc;
+}
+
+.option {
+  background: #ff79c6;
+  transition: 300ms all ease-in-out;
+}
+
+.option:hover {
+  background: #c9609b;
+}
